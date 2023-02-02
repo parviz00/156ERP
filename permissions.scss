@@ -1,0 +1,198 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88px;
+  background-color: #d9d9d9;
+  .navitems {
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px !important;
+    .navbarLogo {
+      margin-left: 60px;
+    }
+    .navbarItems {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      margin-right: 60px;
+      .userName {
+        font-weight: 400;
+        color: #000000;
+        font-size: 16px;
+      }
+      .language {
+        select {
+          border: none;
+          outline: none;
+          cursor: pointer;
+          background-color: #d9d9d9;
+        }
+      }
+      .balance {
+        font-weight: 400;
+        color: #000000;
+        font-size: 16px;
+      }
+    }
+  }
+}
+.sectionMain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 51px !important;
+  margin-bottom: 53px !important;
+  .sectionItems {
+    display: flex;
+    gap: 20px;
+    width: 1440px;
+    padding: 0 60px !important;
+    .menuItems {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .btnMenu {
+        width: 315px;
+        height: 57px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: #f5f5f5;
+        text-align: start;
+        padding-left: 28px !important;
+        color: #000000;
+        font-weight: 400;
+        &:hover {
+          background-color: #d9d9d9;
+        }
+      }
+      #permissions {
+        background-color: #d9d9d9;
+      }
+    }
+    .permissionPerson {
+      width: 100%;
+      .permissionData {
+        table {
+          width: 100%;
+          border-collapse: separate;
+          border-spacing: 0 20px;
+
+          tr {
+            height: 48px;
+            outline: 1px solid #b1b1b1;
+            border-radius: 5px;
+            th {
+              color: #000000;
+              text-align: start;
+              font-family: "Poppins";
+              font-size: 13px;
+              font-weight: 500;
+              line-height: 20px;
+              padding-left: 20px !important;
+            }
+            td {
+              color: #000000;
+              text-align: start;
+              font-family: "Poppins";
+              font-size: 13px;
+              font-weight: 500;
+              line-height: 20px;
+              padding-left: 20px !important;
+              .btns {
+                display: flex;
+                gap: 20px;
+                .editBtn,
+                .deleteBtn {
+                  border: none;
+                  background-color: #ffffff;
+                }
+                .verticalLine {
+                  border-left: 2px solid #d9d9d9;
+                }
+              }
+            }
+          }
+        }
+      }
+      .addEmployee {
+        margin-top: 18px !important;
+        .addEmployeeBtn {
+          width: 203px;
+          height: 57px;
+          border: 1px solid #d9d9d9;
+          border-radius: 5px;
+          background-color: #ffffff;
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+        }
+        #addEmployeeForm{
+          display: none;
+          margin-top: 40px !important;
+          form{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .row{
+              flex-wrap: nowrap;
+              gap: 27px;
+              .col-6{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                width: 480px;
+                label{
+                  font-family: Poppins;
+                  font-size: 16px;
+                  font-weight: 500;
+                  line-height: 24px;
+                  color: #000000;
+                }
+                input{
+                  height: 57px !important;
+                }
+                select{
+                  height: 57px !important;
+                }
+              }
+            }
+            .formBtns{
+              display: flex;
+              justify-content: end;
+              gap: 22px;
+              margin-top: 36px !important;
+              .confirm,.cancel{
+                width: 203px;
+                height: 49px;
+                border: none;
+                outline: none;
+                border-radius: 5px;
+                background-color: #b1b1b1;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,257 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88px;
+  background-color: #d9d9d9;
+  .navitems {
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px !important;
+    .navbarLogo {
+      margin-left: 60px;
+    }
+    .navbarItems {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      margin-right: 60px;
+      .userName {
+        font-weight: 400;
+        color: #000000;
+        font-size: 16px;
+      }
+      .language {
+        select {
+          border: none;
+          outline: none;
+          cursor: pointer;
+          background-color: #d9d9d9;
+        }
+      }
+      .balance {
+        font-weight: 400;
+        color: #000000;
+        font-size: 16px;
+      }
+    }
+  }
+}
+.sectionMain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 51px !important;
+  margin-bottom: 53px !important;
+  .sectionItems {
+    display: flex;
+    width: 1440px;
+    padding: 0 60px !important;
+    .menuItems {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .btnMenu {
+        width: 315px;
+        height: 57px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: #f5f5f5;
+        text-align: start;
+        padding-left: 28px !important;
+        color: #000000;
+        font-weight: 400;
+        &:hover {
+          background-color: #d9d9d9;
+        }
+      }
+      #finance_report {
+        background-color: #d9d9d9;
+      }
+    }
+    .moveOrderDiagram {
+      margin-left: 33px !important;
+    }
+    .monthlyResult {
+      display: flex;
+      flex-direction: column;
+      gap: 44px;
+      margin-left: 52px !important;
+      .header {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 34px;
+      }
+      .orderCount {
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 34px;
+      }
+      .allPercent {
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: -0.01em;
+        color: #c7c7c7;
+        line-height: 34px;
+        span {
+          font-size: 16px;
+          font-weight: 700;
+          color: #4169e1;
+        }
+      }
+      .successPercent {
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: -0.01em;
+        color: #c7c7c7;
+        line-height: 34px;
+        span {
+          font-size: 16px;
+          font-weight: 700;
+          color: #41e16e;
+        }
+      }
+      .cancelPercent {
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: -0.01em;
+        color: #c7c7c7;
+        line-height: 34px;
+
+        span {
+          font-size: 16px;
+          font-weight: 700;
+          color: #e14141;
+        }
+      }
+    }
+  }
+}
+.sectionData {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 58px !important;
+  margin-bottom: 316px !important;
+  .data {
+    width: 1440px;
+    padding: 0 60px !important;
+    .orderData {
+      .orderDateButtons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        button {
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 21px;
+          border: 1px solid #d9d9d9;
+          outline: none;
+          background-color: #ffffff;
+          cursor: pointer;
+          width: 110px;
+          height: 42px;
+          border-radius: 5px;
+          &:hover {
+            border: none;
+            background-color: #d9d9d9;
+          }
+        }
+        .daily {
+          border: none;
+          background-color: #d9d9d9;
+        }
+      }
+      .orderSituationButtons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 12px !important;
+        button {
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 21px;
+          border: 1px solid #d9d9d9;
+          outline: none;
+          background-color: #ffffff;
+          cursor: pointer;
+          width: 110px;
+          height: 42px;
+          border-radius: 5px;
+          &:hover {
+            border: none;
+            background-color: #d9d9d9;
+          }
+        }
+        .all {
+          background-color: #d9d9d9;
+        }
+      }
+    }
+    .ordered {
+      margin-top: 30px !important;
+      table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0 20px;
+
+        tr {
+          height: 48px;
+          outline: 1px solid #b1b1b1;
+          border-radius: 5px;
+          th {
+            color: #000000;
+            text-align: start;
+            font-family: "Poppins";
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 20px;
+            padding-left: 20px !important;
+          }
+          td {
+            color: #000000;
+            text-align: start;
+            font-family: "Poppins";
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 20px;
+            padding: 0 20px !important;
+          }
+          .plus{
+            color:#00AC11;
+          }
+          .minus{
+            color: #FF0000;
+          }
+        }
+      }
+    }
+  }
+}

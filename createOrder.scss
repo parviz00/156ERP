@@ -1,0 +1,309 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88px;
+  background-color: #d9d9d9;
+  .navitems {
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px !important;
+    .navbarLogo {
+      margin-left: 60px;
+    }
+    .navbarItems {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      margin-right: 60px;
+      .userName {
+        font-weight: 400;
+        color: #000000;
+        font-size: 16px;
+      }
+      .language {
+        select {
+          border: none;
+          outline: none;
+          cursor: pointer;
+          background-color: #d9d9d9;
+        }
+      }
+      .balance {
+        font-weight: 400;
+        color: #000000;
+        font-size: 16px;
+      }
+    }
+  }
+}
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 51px !important;
+  margin-bottom: 53px !important;
+  .sectionItems {
+    display: flex;
+    //justify-content: space-between;
+    width: 1440px;
+    padding: 0 60px !important;
+    gap: 20px;
+    .menuItems {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .btnMenu {
+        width: 315px;
+        height: 57px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: #f5f5f5;
+        text-align: start;
+        padding-left: 28px !important;
+        color: #000000;
+        font-weight: 400;
+        &:hover {
+          background-color: #d9d9d9;
+        }
+      }
+      #create_order {
+        background-color: #d9d9d9;
+      }
+    }
+    .form-area {
+      form {
+        .addressAndNumber {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          .row {
+            flex-wrap: nowrap;
+            gap: 21px;
+            .pickUpAdress,.goToAdress {
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              font-family: Poppins;
+              font-size: 16px;
+              font-weight: 500;
+              width: 538px;
+              input {
+                height: 57px;
+              }
+            }
+            .phone {
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              font-family: Poppins;
+              font-size: 16px;
+              font-weight: 500;
+              .phoneNumber {
+                flex-wrap: nowrap;
+                gap: 17px;
+                .phoneIndex {
+                  width: 88px;
+                  .form-select {
+                    height: 57px;
+                    padding-left: 20px !important;
+                    option {
+                      width: 88px !important;
+                    }
+                  }
+                }
+                .number {
+                  width: 320px;
+                  input {
+                    height: 57px;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .time {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          margin-top: 20px !important;
+          p {
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+          }
+          .check_box {
+            display: flex;
+            align-items: center;
+            gap: 36px;
+            .form-check {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              font-family: Poppins;
+              font-size: 16px;
+              font-weight: 500;
+
+              input {
+                width: 36px;
+                height: 36px;
+              }
+            }
+          }
+        }
+        .category {
+          margin-top: 60px !important;
+          p {
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 36px;
+          }
+          .tab {
+            margin-top: 30px !important;
+            display: flex;
+            gap: 20px;
+              button {
+                width: 315px;
+                height: 57px;
+                border: 1px solid #d9d9d9;
+                outline: none;
+                cursor: pointer;
+                border-radius: 5px;
+                background-color: #ffffff;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 500;
+              }
+              .active{
+                background-color: #b1b1b1;
+              }
+          }
+          .autoSituation {
+            margin-top: 20px !important;
+            .check_box {
+              display: flex;
+              align-items: center;
+              gap: 52px;
+              .form-check {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 500;
+                color: #000000;
+                input {
+                  width: 36px;
+                  height: 36px;
+                }
+              }
+            }
+          }
+          .autoInfo {
+            margin-top: 50px !important;
+            .row {
+              gap: 53px;
+              flex-wrap: nowrap;
+              font-weight: 500;
+              color: #000000;
+              .col {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                #autoNumber {
+                  width: 456px;
+                  height: 57px;
+                }
+                #autoModel {
+                  width: 475px;
+                  height: 57px;
+                }
+              }
+            }
+          }
+          .extraNote {
+            margin-top: 26px !important;
+            p {
+              font-family: Poppins;
+              font-size: 16px;
+              font-weight: 500;
+            }
+            .note {
+              border: 1px solid #d9d9d9;
+              border-radius: 5px;
+              padding: 15px !important;
+              outline: none;
+              width: 100%;
+              height: 100px;
+              resize: none;
+            }
+          }
+          .finalAmount {
+            margin-top: 37px !important;
+            p {
+              font-family: Poppins;
+              font-size: 16px;
+              font-weight: 500;
+              color: #000000;
+            }
+            .amount {
+              width: 203px;
+              height: 57px;
+              padding: 17px !important;
+            }
+          }
+          .buttons {
+            margin-top: 43px !important;
+            display: flex;
+            gap: 21px;
+            .btn {
+              width: 200px;
+              height: 50px;
+              border: none;
+              outline: none;
+              background-color: #b1b1b1;
+              box-shadow: none;
+              font-family: Poppins;
+              font-size: 16px;
+              font-weight: 500;
+            }
+          }
+          .size {
+            display: flex;
+            margin-top: 47px !important;
+            gap: 22px;
+            .row {
+              gap: 10px;
+              font-family: Poppins;
+              font-size: 16px;
+              font-weight: 500;
+              width: 203px;
+              height: 57px;
+            }
+            .sizeing {
+              width: 203px;
+              height: 57px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

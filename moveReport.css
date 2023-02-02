@@ -1,0 +1,321 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88px;
+  background-color: #d9d9d9;
+}
+nav .navitems {
+  display: flex;
+  width: 1440px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px !important;
+}
+nav .navitems .navbarLogo {
+  margin-left: 60px;
+}
+nav .navitems .navbarItems {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-right: 60px;
+}
+nav .navitems .navbarItems .userName {
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+}
+nav .navitems .navbarItems .language select {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #d9d9d9;
+}
+nav .navitems .navbarItems .balance {
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+}
+
+.sectionMain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 51px !important;
+  margin-bottom: 53px !important;
+}
+.sectionMain .sectionItems {
+  display: flex;
+  width: 1440px;
+  padding: 0 60px !important;
+}
+.sectionMain .sectionItems .menuItems {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sectionMain .sectionItems .menuItems .btnMenu {
+  width: 315px;
+  height: 57px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  text-align: start;
+  padding-left: 28px !important;
+  color: #000000;
+  font-weight: 400;
+}
+.sectionMain .sectionItems .menuItems .btnMenu:hover {
+  background-color: #d9d9d9;
+}
+.sectionMain .sectionItems .menuItems #move_report {
+  background-color: #d9d9d9;
+}
+.sectionMain .sectionItems .moveOrderDiagram {
+  margin-left: 33px !important;
+}
+.sectionMain .sectionItems .monthlyResult {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  margin-left: 52px !important;
+}
+.sectionMain .sectionItems .monthlyResult .header {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 34px;
+}
+.sectionMain .sectionItems .monthlyResult .orderCount {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 34px;
+}
+.sectionMain .sectionItems .monthlyResult .allPercent {
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: #C7C7C7;
+  line-height: 34px;
+}
+.sectionMain .sectionItems .monthlyResult .allPercent span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #4169E1;
+}
+.sectionMain .sectionItems .monthlyResult .successPercent {
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: #C7C7C7;
+  line-height: 34px;
+}
+.sectionMain .sectionItems .monthlyResult .successPercent span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #41E16E;
+}
+.sectionMain .sectionItems .monthlyResult .cancelPercent {
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: #C7C7C7;
+  line-height: 34px;
+}
+.sectionMain .sectionItems .monthlyResult .cancelPercent span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #E14141;
+}
+
+.sectionData {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 58px !important;
+  margin-bottom: 112px !important;
+}
+.sectionData .data {
+  width: 1440px;
+  padding: 0 60px !important;
+}
+.sectionData .data .orderData .orderDateButtons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.sectionData .data .orderData .orderDateButtons button {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  border: 1px solid #d9d9d9;
+  outline: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  width: 110px;
+  height: 42px;
+  border-radius: 5px;
+}
+.sectionData .data .orderData .orderDateButtons button:hover {
+  border: none;
+  background-color: #d9d9d9;
+}
+.sectionData .data .orderData .orderDateButtons .daily {
+  border: none;
+  background-color: #d9d9d9;
+}
+.sectionData .data .orderData .orderSituationButtons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 12px !important;
+}
+.sectionData .data .orderData .orderSituationButtons button {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  border: 1px solid #d9d9d9;
+  outline: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  width: 110px;
+  height: 42px;
+  border-radius: 5px;
+}
+.sectionData .data .orderData .orderSituationButtons button:hover {
+  border: none;
+  background-color: #d9d9d9;
+}
+.sectionData .data .orderData .orderSituationButtons .all {
+  background-color: #d9d9d9;
+}
+.sectionData .data .ordered {
+  margin-top: 30px !important;
+}
+.sectionData .data .ordered table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 20px;
+}
+.sectionData .data .ordered table tr {
+  height: 48px;
+  outline: 1px solid #b1b1b1;
+  border-radius: 5px;
+}
+.sectionData .data .ordered table tr th {
+  text-align: start;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-left: 20px !important;
+}
+.sectionData .data .ordered table tr td {
+  text-align: start;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 0 20px !important;
+}
+.sectionData .data .ordered table tr td .btns {
+  display: flex;
+  align-items: center;
+}
+.sectionData .data .ordered table tr td .btns .btnMore {
+  border: none;
+  background-color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.sectionData .data .ordered table tr td .btns .complain {
+  border: none;
+  width: 89px;
+  height: 26px;
+  background: #b1b1b1;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.sectionData .data .orderingPerson {
+  margin-top: 50px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
+}
+.sectionData .data .orderingPerson .search {
+  display: flex;
+  gap: 20px;
+}
+.sectionData .data .orderingPerson .search input {
+  width: 112px;
+  border: none;
+  outline: none;
+}
+.sectionData .data .orderingPerson .search input::-moz-placeholder {
+  color: #000000 !important;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.sectionData .data .orderingPerson .search input:-ms-input-placeholder {
+  color: #000000 !important;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.sectionData .data .orderingPerson .search input::placeholder {
+  color: #000000 !important;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.sectionData .data .orderingPerson .search .btnSearch {
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+}
+.sectionData .data .orderingPerson .persons {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.sectionData .data .orderingPerson .persons .person {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #000000;
+}/*# sourceMappingURL=moveReport.css.map */

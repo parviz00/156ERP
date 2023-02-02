@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 433px;
+}
+
+main {
+  width: 1440px;
+  margin-top: 169px;
+}
+main .text_head {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+main .text_head p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #000000;
+}
+main .form_section {
+  width: 100%;
+  margin-top: 81px;
+  display: flex;
+  justify-content: center;
+}
+main .form_section form {
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .form_section form .mb-3 {
+  margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .form_section form .mb-3 .form-label {
+  margin: 0 !important;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  font-weight: 500;
+}
+main .form_section form .mb-3 .form-control {
+  height: 57px;
+}
+main .form_section form #btn {
+  display: flex;
+  justify-content: end;
+  margin-top: 12px;
+}
+main .form_section form #btn .btnEnter {
+  width: 176px;
+  height: 49px;
+  background-color: #b1b1b1;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=responsiblePerson.css.map */

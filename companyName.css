@@ -1,0 +1,125 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88px;
+  background-color: #d9d9d9;
+}
+nav .navitems {
+  display: flex;
+  width: 1440px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px !important;
+}
+nav .navitems .navbarLogo {
+  margin-left: 60px;
+}
+nav .navitems .navbarItems {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-right: 60px;
+}
+nav .navitems .navbarItems .userName {
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+}
+nav .navitems .navbarItems .language select {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #d9d9d9;
+}
+nav .navitems .navbarItems .balance {
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 51px !important;
+  margin-bottom: 673px !important;
+}
+section .sectionItems {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  padding: 0 60px !important;
+  gap: 20px;
+}
+section .sectionItems .menuItems {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+section .sectionItems .menuItems .btnMenu {
+  width: 315px;
+  height: 57px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  text-align: start;
+  padding-left: 28px !important;
+  color: #000000;
+  font-weight: 400;
+}
+section .sectionItems .menuItems .btnMenu:hover {
+  background-color: #d9d9d9;
+}
+section .sectionItems .menuItems #company_name {
+  background-color: #d9d9d9;
+}
+section .sectionItems .form-area form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+section .sectionItems .form-area form .row {
+  display: flex;
+  gap: 25px;
+  font-weight: 500;
+  color: #000000;
+}
+section .sectionItems .form-area form .row .col-6 {
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+section .sectionItems .form-area form .row .col-6 input {
+  height: 57px;
+}
+section .sectionItems .form-area form .row .col-6 .row {
+  display: flex;
+  gap: 10px;
+}
+section .sectionItems .form-area form .row .col-6 .row .col-4 {
+  width: 153px;
+}
+section .sectionItems .form-area form .row .lastRow .row {
+  display: flex;
+  width: 480px;
+  gap: 20px;
+}
+section .sectionItems .form-area form .row .lastRow .row .col-6 {
+  width: 230px;
+}/*# sourceMappingURL=companyName.css.map */
